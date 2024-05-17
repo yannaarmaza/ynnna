@@ -1,24 +1,12 @@
-# ynnna
-Hello World
+# Starter Next/Hardhat Project
 
-This Solidity program is a simple "Hello World" example demonstrating the basic syntax and functionality of the Solidity programming language. It serves as a starting point for beginners who want to learn how to create smart contracts on the Ethereum blockchain.
+After cloning the github, you will want to do the following to get the code running on your computer.
 
-Description
+1. Inside the project directory, in the terminal type: npm i
+2. Open two additional terminals in your VS code
+3. In the second terminal type: npx hardhat node
+4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+5. Back in the first terminal, type npm run dev to launch the front-end.
 
-The program is a basic contract written in Solidity, which includes a single function that returns the string "Hello World!". It is designed to introduce newcomers to Solidity programming and provide a foundation for more complex projects.
-
-Getting Started
-
-Executing program
-
-To run this program, you can use visual studio , To get started, go to the VsCode app.
-
-Once you are on the Vscode, copy the link of the file and paste it in the vscode or download the file and open the folder in the vscode. Save the file with a .sol extension (e.g., module2.sol).
-
-Authors
-
-Metacrafter 
-[@yannaarmaza]
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
